@@ -1,0 +1,114 @@
+[FTN95/Win32 Ver. 5.10.0 Copyright (c) Silverfrost Ltd 1993-2007]
+0005)       DIMENSION DNORM(6,6),RTL(6),OBR(6,6),POPR(6),ED(6,6),COV(6,6)
+WARNING - Variable ED has been declared but not used
+    NO ERRORS, 1 WARNING  [<main program> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<NACPRIBL> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<PROGNOS> FTN95/Win32 v5.10.0]
+0259)       SUBROUTINE NORMMATR(NOBS,ALF,DEL,ALFC,DELC,RO,DISO,DNORM,RTL,
+0260)      :SIGMA,TOBS)
+WARNING - The argument TOBS has not been used
+    NO ERRORS, 1 WARNING  [<NORMMATR> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<ANGDIF> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<VARINIT> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<SIGNUM> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<DIFJD> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<EPOCH> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<DJDATE> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<WRITEDATE> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<CALDAT> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<FORCE> FTN95/Win32 v5.10.0]
+0760)    74 IF(NPER) GOTO 999
+WARNING - Label 74 is declared, but not used
+0739)     8 FORMAT(2X,I2,2G18.10)
+WARNING - Label 8 is declared, but not used
+0587)       IF(TF==TI) RETURN
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+0762)       NPER=.FALSE.
+WARNING - This statement will never be executed
+    NO ERRORS, 4 WARNINGS  [<RADA39> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<FINDINTERP> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<INTERPTOTIME> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<ALFDEL> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<SID2000> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<P1950_2000> FTN95/Win32 v5.10.0]
+0929)       SUBROUTINE ISOCHRON(ICN,NV,XT,VT,NOBS,DISO)
+WARNING - The argument VT has not been used
+    NO ERRORS, 1 WARNING  [<ISOCHRON> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<EXCLUDE> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<ATMOS> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<DENSIT> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<RLTVT> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<SUN_LITE> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<READ405> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<CHEB> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<COOR> FTN95/Win32 v5.10.0]
+1195)       DIMENSION X(3),CONX(3), XR(3),VX(3),GF(3),F(6)
+WARNING - Variable F has been declared but not used
+1281)     7 CP(1:2)=CV(1:2,IP1,JP1)            ! Функция V_{I,J}
+WARNING - Label 7 is declared, but not used
+    NO ERRORS, 2 WARNINGS  [<GEOPOT> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<TIDES> FTN95/Win32 v5.10.0]
+1419)       VV=SQRT(X(3)**2+X(4)**2+X(5)**2)
+WARNING - Variable VV has been given a value but never used
+    NO ERRORS, 1 WARNING  [<COOREL> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<TAU> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<ELLIPSE> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<HYPERBOLA> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<PARABOLA> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<DERIVELC> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<OBRSING> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<UMATRN> FTN95/Win32 v5.10.0]
+1580)       IERR=0.
+COMMENT - This assignment will result in a loss of precision, assigning from 
+    REAL(KIND=3) to INTEGER(KIND=3)
+1593)         IF(SCALE==0) GOTO 210
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+1616)         IF(SCALE==0) GOTO 290
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+1639)         IF(G==0.) GOTO 360
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+1660)   430   IF(G==0.) GOTO 475
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+1680)           IF((ABS(RV1(L))+ANORM)==ANORM) GOTO 565
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+1681)           IF((ABS(W(L1))+ANORM)==ANORM)  GOTO 540
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+1688)           IF((ABS(F)+ANORM)==ANORM) GOTO 565
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+1738)           IF(Z==0) GOTO 580
+WARNING - Comparing floating point quantities for equality may give misleading 
+    results
+    NO ERRORS, 8 WARNINGS, 1 COMMENT  [<SVD> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<CELTOTER> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<TERTOCEL> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<T2C2000> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<POLAR> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<GST2000> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<GMST2000> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<ERA2000> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<EE2000> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<EECT2000> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<UT1MTT> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<UTCMTT> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<UT1CTAI> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<NU2000B> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<CBPN2000> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_ZR> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_IR> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_RXR> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_CR> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_CP> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_RX> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_RY> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_RZ> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_ANP> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<IAU_ANPM> FTN95/Win32 v5.10.0]
+    NO ERRORS  [<INITCONST> FTN95/Win32 v5.10.0]
